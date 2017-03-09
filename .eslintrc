@@ -1,7 +1,7 @@
 {
   "extends": "airbnb",
   "parserOptions": {
-        "sourceType": "script",
+    "sourceType": "script",
   },
   "rules": {
     "strict": 0,
@@ -11,17 +11,7 @@
     ],
     "no-console": 0
   },
-  "globals": {
-    "describe": true,
-    "it": true,
-    "after": true,
-    "afterEach": true,
-    "before": true,
-    "beforeEach": true,
-    "should": true
-  },
   "env": {
-    "node": true,
-    "mocha": true
+    "node": true
   }
 }
